@@ -305,8 +305,11 @@ Para llevar a la práctica un diagrama debemos ir más allá y darle detalle con
 #### Tipos de dato
 
 **- Texto:** CHAR(n), VARCHAR(n), TEXT
+
 **- Números:** INTEGER, BIGINT, SMALLINT, DECIMAL(n,s), NUMERIC(n,s)
+
 **- Fecha/hora:** DATE, TIME, DATETIME, TIMESTAMP
+
 **- Lógicos:** BOOLEAN
 
 Nota:
@@ -392,8 +395,6 @@ Formalmente, una tabla está en primera forma normal si:
 - No debe existir variación en el número de columnas.
 - Los campos no clave deben identificarse por la clave (dependencia funcional).
 - Debe existir una independencia del orden tanto de las filas como de las columnas; es decir, si los datos cambian de orden no deben cambiar sus significados.
-
-Se traduce básicamente a que si tenemos campos compuestos como por ejemplo “nombre_completo” que en realidad contiene varios datos distintos, en este caso podría ser “nombre”, “apellido_paterno”, “apellido_materno”, etc.
 
 Se traduce básicamente a que si tenemos campos compuestos como por ejemplo “nombre_completo” que en realidad contiene varios datos distintos, en este caso podría ser “nombre”, “apellido_paterno”, “apellido_materno”, etc.
 
